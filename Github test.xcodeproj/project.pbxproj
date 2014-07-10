@@ -21,6 +21,7 @@
 		52C15782196E77EE004A4B4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C15764196E77EE004A4B4F /* UIKit.framework */; };
 		52C1578A196E77EE004A4B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C15788196E77EE004A4B4F /* InfoPlist.strings */; };
 		52C1578C196E77EE004A4B4F /* Github_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C1578B196E77EE004A4B4F /* Github_testTests.m */; };
+		52C15797196E7EB2004A4B4F /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C15796196E7EB2004A4B4F /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		52C15787196E77EE004A4B4F /* Github testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Github testTests-Info.plist"; sourceTree = "<group>"; };
 		52C15789196E77EE004A4B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52C1578B196E77EE004A4B4F /* Github_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Github_testTests.m; sourceTree = "<group>"; };
+		52C15795196E7EB2004A4B4F /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		52C15796196E7EB2004A4B4F /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				52C15772196E77EE004A4B4F /* Main.storyboard */,
 				52C15775196E77EE004A4B4F /* CCViewController.h */,
 				52C15776196E77EE004A4B4F /* CCViewController.m */,
+				52C15795196E7EB2004A4B4F /* CCTest.h */,
+				52C15796196E7EB2004A4B4F /* CCTest.m */,
 				52C15778196E77EE004A4B4F /* Images.xcassets */,
 				52C15767196E77EE004A4B4F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C15771196E77EE004A4B4F /* CCAppDelegate.m in Sources */,
+				52C15797196E7EB2004A4B4F /* CCTest.m in Sources */,
 				52C1576D196E77EE004A4B4F /* main.m in Sources */,
 				52C15777196E77EE004A4B4F /* CCViewController.m in Sources */,
 			);
